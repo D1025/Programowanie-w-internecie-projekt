@@ -1,0 +1,92 @@
+/* H1 style - nagłówek */
+
+.titlebox {
+    display: inline;
+    background-color: rgba(255,255,255,0.7);
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 1%;
+    color: #333;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titlebox > h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: auto;
+}
+
+.titlebox > h2 {
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Shoolbook', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    /* body {
+        font-size: 18px;
+    } */
+    .titlebox {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .titlebox > h1 {
+        font-size: 30px;
+    }
+    .titlebox > h2 {
+        font-size: 20px;
+    }
+
+}
+
+.compiler {
+    display: grid;
+    background-color: rgba(255,255,255,0.7);
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 1%;
+    color: #333;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    list-style: none;
+    justify-items: center;
+    height: 50vh;
+}
+
+.compiler > .comp {
+    display: flex;
+}
+
+input#inp {
+    height: 30vh;
+    width:50vh;
+}
+
+.output {
+    background-color: #333;
+    padding: 10px;
+    color: rgba(210,200,196,1);
+    width: 50vh;
+}
+
+.compiler .btn {
+    margin: 14px;
+}
+.compiler .btn a {
+	color: #333;
+	text-decoration: none;
+    background-color: rgba(210,200,196,1);
+    padding: 10px;
+	border-radius: 5%;
+}
+
+.compiler li a:hover {
+    background-color: rgb(170, 125, 11);
+	color: #ffd700;
+}
+

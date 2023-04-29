@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        
+    </script>
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    <p>Podaj dwie liczby:</p>
+    <input type="number" id="liczba1">
+    <input type="number" id="liczba2">
+    <button onclick="oblicz()">Oblicz</button>
+
+    <script>
+      function oblicz() {
+        // Pobranie wartości z inputów
+        var liczba1 = parseFloat(document.getElementById("liczba1").value);
+        var liczba2 = parseFloat(document.getElementById("liczba2").value);
+
+        // Obliczenia
+        var dodawanie = liczba1 + liczba2;
+        var odejmowanie = liczba1 - liczba2;
+        var mnozenie = liczba1 * liczba2;
+        if (liczba2 == 0)
+            var dzielenie = "Nie dziej przez zeroimage.png";
+        else
+            var dzielenie = liczba1 / liczba2;
+
+        // Wyświetlenie alerta z wynikami
+        alert(
+          "Wyniki działań:\n\n" +
+            "Dodawanie: " +
+            dodawanie +
+            "\n" +
+            "Odejmowanie: " +
+            odejmowanie +
+            "\n" +
+            "Mnożenie: " +
+            mnozenie +
+            "\n" +
+            "Dzielenie: " +
+            dzielenie
+        );
+      }
+    </script>
+    
+</body>
+</html>

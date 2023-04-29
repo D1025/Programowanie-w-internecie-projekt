@@ -1,0 +1,26 @@
+01.03.2023 - pierwsze zajęcia
+
+oddanie nazwy projektu na 3cich zajęciach
+
+strona:
+minimum 5 podstron dla zwykłych urzytkowników nieuwierzytlenionych + dwie podstrony moda/etc etc
+kod ma być zgodny z specyfikacją htmla5
+validator w3.org
+poprawny ccs
+js opcjonalny
+
+baza danych:
+relacujna albo nierealacyjna
+
+MongoDB popratrzeć, #zerknij na cassandrę
+min 3 relacyjna-tabele, dokumnetowa-dokumnety, albo kolekcję, 3 grafowa-typy węzłów
+
+nosql - dodatkowe punkty
+inny język niż php
+oath uwierzytelnianie
+
+
+paczka xampp zintegrowana od razu
+
+31 marzec 9:45 odrabiamy zajęcia
+

@@ -1,0 +1,84 @@
+nav#nav06 {
+    background-color: bisque;
+}
+
+nav#nav07 {
+    background-color: brown;
+}
+
+nav#nav08 {
+    background-color: darkorange;
+}
+
+.aside06 {
+    background-color: lightskyblue;
+}
+
+.aside07 {
+    background-color: gray;
+}
+
+.art06 {
+    background-color: snow;
+}
+
+.art07 {
+    background-color: aquamarine;
+}
+
+.art08 {
+    background-color: beige;
+}
+
+
+.aside08 {
+    background-color: darkcyan;
+}
+footer {
+    background-color: navy;
+}
+
+header {
+    background-color: gold;
+}
+
+
+menu li { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    list-style: none;
+    display: inline;
+    width: 32%;
+    color: red;
+
+}
+
+menu {
+    margin: 10;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    border: 50cap;
+    border-radius:30%;
+    border-style:double;
+    border-color: red;
+}
+
+article {
+    border: 2cap;
+    border-color: aqua;
+    border-style: dashed;
+    font-size: x-large;
+    font: Impact;
+    flex-grow: 2;
+}
+
+aside {
+    font: message-box;
+    font-style: italic;
+    flex-grow: 1;
+}
